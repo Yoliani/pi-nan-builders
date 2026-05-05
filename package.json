@@ -1,0 +1,14 @@
+{
+  "name": "pi-nan-builders",
+  "version": "1.0.0",
+  "description": "Pi package for nan-builders custom OpenAI-compatible provider",
+  "keywords": ["pi-package"],
+  "pi": {
+    "extensions": ["./extensions"]
+  },
+  "type": "module",
+  "private": true,
+  "peerDependencies": {
+    "@mariozechner/pi-coding-agent": "*"
+  }
+}

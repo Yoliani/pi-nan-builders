@@ -34,6 +34,16 @@ pi --model nan-builders/<model-id> "Your prompt"
 
 Or use the interactive model selector (`Ctrl+L`) and pick a model from the **nan-builders** provider.
 
+## Updating
+
+```bash
+# Update this package
+pi update https://github.com/Yoliani/pi-nan-builders
+
+# Or update all installed packages
+pi update
+```
+
 ## How It Works
 
 At startup, the extension fetches `GET /models` from the configured base URL and registers each discovered model. If the endpoint is unreachable, it falls back to a single hardcoded default model and logs a warning.
